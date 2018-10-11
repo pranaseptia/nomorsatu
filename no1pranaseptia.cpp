@@ -50,13 +50,19 @@ main()
         break;
         case 2:
         {
+            cout<<" "<<endl;
+            
             cout<<"Film Favorit anda adalah :"<<endl;
-            for (i=0;i<pav;i++)
+            for (i=1;i<=pav;i++)
             {
-                cout<<films[i].movie<<endl;
-                cout<<films[i].tahun<<endl;
+                cout<<films[i].movie;
+                cout<<"("<<films[i].tahun<<")"<<endl;
             }
             
         }
+        break;
+        goto pranaganteng;
+        case 3:
+            cout<<"Terima Kasih ";
     }
 }
